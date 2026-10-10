@@ -17,6 +17,19 @@ section.body {
   margin: 0px auto;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul > li {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
+}
+
 nav {
   margin-bottom: 10px;
 }
